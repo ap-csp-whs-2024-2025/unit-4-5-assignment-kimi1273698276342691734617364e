@@ -7,9 +7,15 @@ void displayList(std::vector<T> const &v);
 
 int main()
 {
-    // You can follow along with any code in class here
+    std::vector<int> pi = {3, 1, 4, 1, 5, 9};
+    std::vector<double> superfragilisticexpiallidosis = {1.23, 4.56, 7.89, 9.10, 12.07};
+    std::vector<std::string> pneumonoultramicroscopicsilicovolcanoconiosis = {"hi", "hola", "bonjour", "ciao", "hallo"};
 
-    
+   std::cout << pi[0] << " " << pi[2] << " " << pi [4] << std::endl;
+
+   std::displayList(std::vector<pneumonoultramicroscopicsilicovolcanoconiosis>);
+   std::vector<pneumonoultramicroscopicsilicovolcanoconiosis>.push_back(kim);
+   std::displayList(std::vector<pneumonoultramicroscopicsilicovolcanoconiosis>);
     return 0;
 }
 

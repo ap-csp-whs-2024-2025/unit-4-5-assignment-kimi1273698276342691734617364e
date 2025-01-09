@@ -14,7 +14,7 @@ int main()
 
     // A list of ints named jennys w/ 7 elements in it
     std::vector<int> jennys = {8, 6, 7, 5, 3, 0, 9}
-    std::vector<double> foo = {3.13, 2.5}
+    std::vector<double> foo = {3.14, 2.5}
     std::vector<std::string> bar = {"hello", "darkness"}
     
     return 0;
